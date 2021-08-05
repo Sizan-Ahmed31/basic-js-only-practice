@@ -13,10 +13,9 @@
 // console.log(`name-${person.myName} age-${person.age} job-${person.job}`);
 
 const product = {
-
-    price = 30,
-    quantity = 5
-
+    productName: 'mango',
+    price: 30,
+    quantity: 5
 }
 
-console.log(product.productName)
+console.log(`name-${product.productName}, price-${product.price}, quantity-${product.quantity}`);
