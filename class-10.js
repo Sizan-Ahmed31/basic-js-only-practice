@@ -19,11 +19,35 @@
 // console.log(man2);
 
 
+// const person1 = {
+//     myName: 'sizan',
+//     age: 20,
+//     job: 'student'
+// };
+// const person2 = {
+//     myName: 'lallu',
+//     age: 10,
+//     job: 'chawala'
+// };
+// const person3 = {
+//     myName: 'modon',
+//     age: 50,
+//     job: 'vanwala'
+// };
+// function man (parameter){
+//     return `name-${parameter.myName} age-${parameter.age} job-${parameter.job}`;
+// }
+// console.log(man (person1))
+// console.log(man (person2))
+// console.log(man (person3))
+
+
 const person1 = {
     myName: 'sizan',
     age: 20,
     job: 'student'
 };
+
 const person2 = {
     myName: 'lallu',
     age: 10,
@@ -34,9 +58,13 @@ const person3 = {
     age: 50,
     job: 'vanwala'
 };
-function man (parameter){
-    return `name-${parameter.myName} age-${parameter.age} job-${parameter.job}`;
+
+
+
+function func(parameter) {
+
+    return `name- ${parameter.myName}, age- ${parameter.age}, job- ${parameter.job}`
 }
-console.log(man (person1))
-console.log(man (person2))
-console.log(man (person3))
+console.log(func(person1))
+console.log(func(person2))
+console.log(func(person3))
