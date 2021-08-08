@@ -22,3 +22,13 @@
 
 //     };
 // console.log(person9.newPerson())
+
+// const person9 = {
+//     myName: 'sizan',
+//     age: 20,
+//     job: 'student',
+//     info: function personalInfo() {
+//         return `name- ${person9.myName},age- ${person9.age},job- ${person9.job}`;
+//     }
+// };
+// console.log(person9.info())
