@@ -1,5 +1,5 @@
 // today we learn switch statement in practice. when we necessay a large number condition we use it inspite of if,else if ,else.
-const price = 50;
+const price = 150;
 let freeshepping = true;
 let handpick = true;
 switch (price) {
