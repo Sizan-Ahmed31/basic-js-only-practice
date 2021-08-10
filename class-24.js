@@ -27,22 +27,22 @@
 // console.log(prize)
 // console.log(chocolate)
 
-const price = 70;
-let freeShipping = true;
-let freeHand = true;
-switch (price) {
-    case price >= 100 && price:
-        freeShipping = true;
-        freeHand = false;
-        break;
-    case price >= 60 && price:
-        freeShipping = false;
-        freeHand = true;
-        break;
-    default:
-        freeShipping = true;
-        freeHand = true;
-}
+// const price = 70;
+// let freeShipping = true;
+// let freeHand = true;
+// switch (price) {
+//     case price >= 100 && price:
+//         freeShipping = true;
+//         freeHand = false;
+//         break;
+//     case price >= 60 && price:
+//         freeShipping = false;
+//         freeHand = true;
+//         break;
+//     default:
+//         freeShipping = true;
+//         freeHand = true;
+// }
 
-console.log(freeShipping)
-console.log(freeHand)
+// console.log(freeShipping)
+// console.log(freeHand)
