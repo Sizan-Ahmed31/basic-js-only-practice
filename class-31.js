@@ -27,8 +27,19 @@
 // }
 // console.log(text)
 
-const text = ['i', 'love', 'programming'];
-text.forEach(function(el) {
-    console.log(el)
+// const text = ['i', 'love', 'programming'];
+// text.forEach(function(el) {
+//     console.log(el)
 
-})
+// })
+
+// const text = ['i', 'love', 'programming'];
+// for (let i = 0; i < text.length; i++) {
+//     console.log(text[i])
+
+// }
+
+let text = ['i', 'love', 'programming'];
+// text.forEach(function(el, index, abc) {
+//     console.log(index, el, abc)
+// })
