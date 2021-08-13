@@ -15,15 +15,9 @@
 // }
 // console.log(mouse(mobile));
 
-const person = {
-    myName: 'sizan',
-    age: 20,
-    job: 'student'
-}
-
-function sizan(parameter) {
-    console.log(parameter);
-    return `name-${parameter.myName}`
-
-}
-console.log(sizan(person))
+// const boy = 'sizan';
+// function sp(){
+//     const abc = boy.split('').reverse().join('');
+//     return abc
+// }
+// console.log(sp())

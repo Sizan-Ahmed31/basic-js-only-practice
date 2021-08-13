@@ -81,3 +81,23 @@
 // outer(function(){
 //     console.log('hello world')
 // })
+
+// const func = function one (){
+//     console.log('hello brother')
+// }
+// func()
+
+// function func(){
+//     return function one (){
+//             console.log('hello brother')
+//         }
+// }
+// func()()
+
+function one(re) {
+    console.log(re())
+}
+
+one(function() {
+    console.log('hello brother')
+})
