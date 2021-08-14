@@ -16,6 +16,7 @@ const person = [{
 const onlyPerson = function(parameter) {
     let realman = '';
     for (let person of parameter) {
+
         // ekhane amra destructure kore task k ro soto korte pari.
         const { myName, age, job, resultIsAvailable } = person
         realman += `
