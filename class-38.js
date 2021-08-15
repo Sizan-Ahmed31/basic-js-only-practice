@@ -10,7 +10,7 @@ const person = [{
         age: 50,
         job: 'student',
         resultIsAvailable: false
-    },
+    }
 ];
 
 const onlyPerson = function(parameter) {

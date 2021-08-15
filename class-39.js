@@ -3,37 +3,37 @@
 
 
 // aikhane amra const use korte pari r jodi amra reassign korte chai tahole let use korte pari
- 
-const a = 10;
-function outer() {
-    console.log(a);
-    let b = 5;
-    let c = 15;
-    let d = 30
-    
-    return function inner() {
-        console.log(b);
-        c = 2
-        console.log(c);
-        const a = 50;
-        c = 4;
-        
-        return function innerAgain() {
-            const a = 100
-            console.log(d);
-            console.log(a);
-            console.log(c);
 
-            return function innerAgain() {
-                const a = 100
-                console.log(d);
-                console.log(a);
-                console.log(c);
-            }
-        }
-      
-        
-    }
-}
+// const a = 10;
+// function outer() {
+//     console.log(a);
+//     let b = 5;
+//     let c = 15;
+//     let d = 30
 
-outer()()()()
+//     return function inner() {
+//         console.log(b);
+//         c = 2
+//         console.log(c);
+//         const a = 50;
+//         c = 4;
+
+//         return function innerAgain() {
+//             const a = 100
+//             console.log(d);
+//             console.log(a);
+//             console.log(c);
+
+//             return function innerAgain() {
+//                 const a = 100
+//                 console.log(d);
+//                 console.log(a);
+//                 console.log(c);
+//             }
+//         }
+
+
+//     }
+// }
+
+// outer()()()()
