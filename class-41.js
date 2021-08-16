@@ -18,27 +18,37 @@
 // console.log (result)
 
 
-const arr = [1, 2, 3, 4];
+// const arr = [1, 2, 3, 4];
 
-function sum(parameter) {
-    let sum = 0;
-    if (!Array.isArray(arr)) return 'please provide array'
-    for (let num of arr) {
-        sum += num
-    }
-    return sum
-}
-console.log(sum(arr))
+// function sum(parameter) {
+//     let sum = 0;
+//     if (!Array.isArray(arr)) return 'please provide array'
+//     for (let num of arr) {
+//         sum += num
+//     }
+//     return sum
+// }
+// console.log(sum(arr))
 
 // const index = [1, 2, 3, 4];
 
 // function sum(param) {
 //     let sum = 0;
-//     if (Array.isArray(param))
 //         for (let num of param) {
 //             sum += num
 //         }
 //     return sum
 
 // }
-// console.log(sum(param))
+// console.log(sum(index));
+
+// const num = [1, 2, 3, 4];
+// function sum(parameter){
+//     let i = 0;
+//     for(let el of parameter){
+//         i += el
+//     }
+//     return i
+
+// }
+// console.log(sum(num))
