@@ -81,7 +81,7 @@
 //     this.age = age
 //     this.job = job
 //     this.show = function() {
-        
+
 //         return `name-${this.nam} age-${this.age} job-${this.job}`
 //     }
 
@@ -107,23 +107,23 @@
 // }
 
 
-function Person(myName, age, job) {
+// function Person(myName, age, job) {
 
-    this.myName = myName
-    this.age = age
-    this.job = job
-    this.newPerson = function() {
-        return `name-${this.myName} age-${this.age} job-${this.job}`
-    }
-}
-Person.prototype.showMan = function(){
-    return `name-${this.myName} age-${this.age} job-${this.job}`
-}
+//     this.myName = myName
+//     this.age = age
+//     this.job = job
+//     this.newPerson = function() {
+//         return `name-${this.myName} age-${this.age} job-${this.job}`
+//     }
+// }
+// Person.prototype.showMan = function(){
+//     return `name-${this.myName} age-${this.age} job-${this.job}`
+// }
 
-const newKey = new Person('sizan',20,'student')
-// console.log(newKey.newPerson())
-console.log(newKey)
-console.log(newKey.showMan())
+// const newKey = new Person('sizan',20,'student')
+// // console.log(newKey.newPerson())
+// console.log(newKey)
+// console.log(newKey.showMan())
 
 
 
@@ -149,3 +149,30 @@ console.log(newKey.showMan())
 //     age: 20,
 //     job: 'student'
 // }
+
+let day;
+let date = new Date();
+switch (date.getDay()) {
+    case 0:
+        day = "sunday";
+        break;
+    case 1:
+        day = "monday";
+        break;
+    case 2:
+        day = "tuesday";
+        break;
+    case 0:
+        day = "sunday";
+        break;
+    case 0:
+        day = "sunday";
+        break;
+    case 0:
+        day = "sunday";
+        break;
+    case 0:
+        day = "sunday";
+        break;
+}
+console.log(day)
